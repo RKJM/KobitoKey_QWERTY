@@ -59,10 +59,10 @@
         layer1 {
             label = "NUMBER";
             bindings = <
-&kp NUMBER_1       &kp NUMBER_2          &kp NUMBER_3   &kp NUMBER_4    &kp N5            &kp NUMBER_6  &kp N7       &kp N8         &kp N9                &kp N0
-&kp ASTERISK       &kp LEFT_PARENTHESIS  &kp HASH       &kp UNDERSCORE  &kp EXCLAMATION   &kp TILDE     &kp CARET    &kp SQT        &kp PLUS              &trans
-&kp RIGHT_BRACKET  &kp NUHS              &kp AMPERSAND  &kp AT_SIGN     &kp LEFT_BRACKET  &kp DOLLAR    &kp INT_YEN  &kp AMPERSAND  &kp EXSEL             &trans
-&trans             &trans                &trans         &trans          &trans            &trans        &kp DEL      &trans         &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
+&kp NUMBER_1       &kp NUMBER_2          &kp NUMBER_3       &kp NUMBER_4   &kp N5            &kp NUMBER_6  &kp N7       &kp N8             &kp N9                &kp N0
+&kp ASTERISK       &kp LEFT_PARENTHESIS  &kp HASH           &kp LS(MINUS)  &kp EXCLAMATION   &kp PLUS      &kp CARET    &kp RS(SEMICOLON)  &kp PLUS              &trans
+&kp RIGHT_BRACKET  &kp NUHS              &kp LS(AMPERSAND)  &kp AT_SIGN    &kp LEFT_BRACKET  &kp DOLLAR    &kp INT_YEN  &kp RS(NUMBER_2)   &kp RS(N8)            &trans
+&trans             &trans                &trans             &trans         &trans            &trans        &kp DEL      &trans             &kp C_BRIGHTNESS_DEC  &kp C_BRIGHTNESS_INC
             >;
         };
 
